@@ -163,3 +163,21 @@ main .storage-wrapper {
     background-image: url("../images/bg-desktop.png");
     background-repeat: no-repeat;
 }
+
+/*@media only screen and (max-width: 375px) {
+    main {
+        background-image: url("../images/bg-mobile.png");
+        background-repeat: no-repeat;
+        background-size: 375px;
+    }
+
+    main .storage-wrapper {
+        flex-direction: column;
+        padding-top: 35px;
+    }
+
+    .storage-wrapper .left-section {
+        width: 20%;
+    }
+    
+}*/
