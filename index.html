@@ -20,16 +20,32 @@
     <div class="storage-wrapper">
       <div class="left-section">
         <div class="logo">
-          <img src="images/logo.svg" alt="logo">
+          <a href="#"><img src="images/logo.svg" alt="logo"></a>
         </div>
         <div class="functions">
-          <div class="icons"><img src="images/icon-document.svg" alt=""></div>
-          <div class="icons"><img src="images/icon-folder.svg" alt=""></div>
-          <div class="icons"><img src="images/icon-upload.svg" alt=""></div>
+          <a href="#"><div class="icons"><img src="images/icon-document.svg" alt="document-icon"></div></a>
+          <a href="#"><div class="icons"><img src="images/icon-folder.svg" alt="folder-icon"></div></a>
+          <a href="#"><div class="icons"><img src="images/icon-upload.svg" alt="upload-icon"></div></a>
         </div>
       </div>
-      <div class="right-section"></div>
+      <div class="right-section">
+        <p>You've used <span class="bold">815 GB</span> of your storage</p>
+        <div class="storage-bar">
+          <div class="space-left-comment">
+            <span class="comment">185 <span class="capitalize">GB LEFT</span></span>
+            <div class="space-left-comment-tip"></div>
+          </div>
+          <div class="status-bar">
+            <span class="dot"></span>
+          </div>
+        </div>
+        <div class="usage-label">
+          <span class="bold" id="minimum">0 GB</span>
+          <span class="bold" id="maximum">1000 GB</span>
+        </div>
+      </div>
     </div>
+    <div class="background"></div>
   </main>
   
   <div class="attribution">
